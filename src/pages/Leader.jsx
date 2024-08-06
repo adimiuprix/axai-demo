@@ -1,6 +1,6 @@
 import './App.css'
 
-function Earn() {
+function Leader() {
   return (
     <>
         <div class="bg-base-300">
@@ -17,11 +17,50 @@ function Earn() {
                 </button>
             </header>
             <main class="min-h-screen overflow-hidden rounded-t-3xl bg-base-100 p-4 pb-36">
-                <header class="flex flex-col justify-center items-center min-h-[80vh]">
-                    <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20261.76%20226.69'%3e%3cpath%20d='M161.096.001l-30.225%2052.351L100.647.001H-.005l130.877%20226.688L261.749.001z'%20fill='%2341b883'/%3e%3cpath%20d='M161.096.001l-30.225%2052.351L100.647.001H52.346l78.526%20136.01L209.398.001z'%20fill='%2334495e'/%3e%3c/svg%3e" width="250" alt=""/>
-                    <h1 class="text-center my-8">Invite friends and get more with AxAi</h1>
-                    <button class="btn rounded-full px-8 py-4 capitalize btn-primary">Invite friends</button>
+                <header class="hero min-h-48">
+                    <div class="hero-content flex-col text-center">
+                        <h1>Leaderboard</h1>
+                        <div class="flex items-center justify-between gap-8 py-4 text-left">
+                            <img src="/assets/profile-W2spSLgN.png" width="50" alt="" class="mask mask-circle"/>
+                            <div class="flex-1">
+                                <p class="font-bold">@shakibchowdury1</p>
+                                <p class="text-sm">2500 AxAi</p>
+                            </div>
+                            <span>#10.000</span>
+                        </div>
+                        <button class="btn rounded-full px-8 py-4 capitalize btn-primary btn-block">More earnings</button>
+                    </div>
                 </header>
+                <div class="divider"></div>
+                <section>
+                    <h2 class="text-lg">3 Leaders</h2>
+                    <ul class="flex flex-col">
+                        <li class="flex items-center justify-between gap-4 p-4">
+                            <img src="/assets/profile-W2spSLgN.png" width="50" height="50" alt="" class="mask mask-circle"/>
+                            <div class="flex-1">
+                                <p class="font-bold">Crypto God</p>
+                                <p class="text-sm">92.98 AxAi</p>
+                            </div>
+                            <span class="font-bold">#1</span>
+                        </li>
+                        <li class="flex items-center justify-between gap-4 p-4">
+                            <img src="/assets/profile-W2spSLgN.png" width="50" height="50" alt="" class="mask mask-circle"/>
+                            <div class="flex-1">
+                                <p class="font-bold">Siapa kek</p>
+                                <p class="text-sm">92.98 AxAi</p>
+                            </div>
+                            <span class="font-bold">#2</span>
+                        </li>
+                        <li class="flex items-center justify-between gap-4 p-4">
+                            <img src="/assets/profile-W2spSLgN.png" width="50" height="50" alt="" class="mask mask-circle"/>
+                            <div class="flex-1">
+                                <p class="font-bold">Adi NodeJS</p>
+                                <p class="text-sm">82.00 AxAi</p>
+                            </div>
+                            <span class="font-bold">#4</span>
+                        </li>
+                    </ul>
+                </section>
             </main>
         </div>
         <nav class="btn-nav-sm btm-nav text-sm">
@@ -37,13 +76,13 @@ function Earn() {
                 </svg>
                 <span>earn</span>
             </a>
-            <a href="/friends" class="router-link-active text-primary border-t border-primary bg-gradient-to-b from-primary/10 to-transparent" aria-current="page">
+            <a href="/friends" class="">
                 <svg viewBox="0 0 640 512" width="1.5em" height="1.2em">
                     <path fill="currentColor" d="M192 256c61.9 0 112-50.1 112-112S253.9 32 192 32S80 82.1 80 144s50.1 112 112 112m76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C51.6 288 0 339.6 0 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2M480 256c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96s43 96 96 96m48 32h-3.8c-13.9 4.8-28.6 8-44.2 8s-30.3-3.2-44.2-8H432c-20.4 0-39.2 5.9-55.7 15.4c24.4 26.3 39.7 61.2 39.7 99.8v38.4c0 2.2-.5 4.3-.6 6.4H592c26.5 0 48-21.5 48-48c0-61.9-50.1-112-112-112"></path>
                 </svg>
                 <span>friends</span>
             </a>
-            <a href="/leaders" class="">
+            <a href="/leaders" class="router-link-active text-primary border-t border-primary bg-gradient-to-b from-primary/10 to-transparent" aria-current="page">
                 <svg viewBox="0 0 576 512" width="1.36em" height="1.2em">
                     <path fill="currentColor" d="M552 64H448V24c0-13.3-10.7-24-24-24H152c-13.3 0-24 10.7-24 24v40H24C10.7 64 0 74.7 0 88v56c0 35.7 22.5 72.4 61.9 100.7c31.5 22.7 69.8 37.1 110 41.7C203.3 338.5 240 360 240 360v72h-48c-35.3 0-64 20.7-64 56v12c0 6.6 5.4 12 12 12h296c6.6 0 12-5.4 12-12v-12c0-35.3-28.7-56-64-56h-48v-72s36.7-21.5 68.1-73.6c40.3-4.6 78.6-19 110-41.7c39.3-28.3 61.9-65 61.9-100.7V88c0-13.3-10.7-24-24-24M99.3 192.8C74.9 175.2 64 155.6 64 144v-16h64.2c1 32.6 5.8 61.2 12.8 86.2c-15.1-5.2-29.2-12.4-41.7-21.4M512 144c0 16.1-17.7 36.1-35.3 48.8c-12.5 9-26.7 16.2-41.8 21.4c7-25 11.8-53.6 12.8-86.2H512z"></path>
                 </svg>
