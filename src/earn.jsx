@@ -3,87 +3,87 @@ import './App.css'
 function Earn() {
   return (
     <>
-<div class="bg-base-300">
-    <header class="navbar px-4">
-        <button class="flex-1">
-            <svg viewBox="0 0 448 512" width="1.06em" height="1.2em">
-                <path fill="currentColor" d="m257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3"></path>
-            </svg>
-        </button>
-        <button class="flex-none">
-            <svg viewBox="0 0 512 512" width="1.2em" height="1.2em">
-                <path fill="currentColor" d="M328 256c0 39.8-32.2 72-72 72s-72-32.2-72-72s32.2-72 72-72s72 32.2 72 72m104-72c-39.8 0-72 32.2-72 72s32.2 72 72 72s72-32.2 72-72s-32.2-72-72-72m-352 0c-39.8 0-72 32.2-72 72s32.2 72 72 72s72-32.2 72-72s-32.2-72-72-72"></path>
-            </svg>
-        </button>
-    </header>
-    <main class="min-h-screen overflow-hidden rounded-t-3xl bg-base-100 p-4 pb-36">
-        <header class="hero min-h-48">
-            <div class="hero-content flex-col text-center">
-                <h1>Earns</h1>
-                <p>Follow simple steps to get more AxAi</p>
-            </div>
-        </header>
-        <section>
-            <h2>Free roulette</h2>
-            <div class="relative p-4 bg-base-200 rounded-lg before:content-[''] before:absolute before:inset-0 before:bottom-3/4 before:bg-gradient-to-b before:from-base-200 before:to-transparent before:content-[''] after:absolute after:inset-0 after:top-2/4 after:bottom-16 after:bg-gradient-to-t after:from-base-200 after:to-transparent">
-                <ul class="flex flex-col gap-2 max-h-72 overflow-auto pt-8 pb-36">
-                    <li class="text-center bg-base-100 rounded-full py-4">100 AxAi</li>
-                    <li class="text-center bg-base-100 rounded-full py-4">100 AxAi</li>
-                    <li class="text-center bg-base-100 rounded-full py-4">100 AxAi</li>
-                    <li class="text-center bg-base-100 rounded-full py-4">100 AxAi</li>
-                    <li class="text-center bg-base-100 rounded-full py-4">100 AxAi</li>
-                    <li class="text-center bg-base-100 rounded-full py-4">100 AxAi</li>
-                    <li class="text-center bg-base-100 rounded-full py-4">100 AxAi</li>
-                </ul>
-                <button class="btn rounded-full px-8 py-4 capitalize btn-primary btn-block mt-4">Spin</button>
-            </div>
-        </section>
-        <div class="divider"></div>
-        <section>
-            <h2>Hourly tasks <span class="badge badge-outline py-3 mx-1 badge-primary">new</span></h2>
-            <ul>
-                <li class="flex items-center justify-between gap-4 p-4">
-                    <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20261.76%20226.69'%3e%3cpath%20d='M161.096.001l-30.225%2052.351L100.647.001H-.005l130.877%20226.688L261.749.001z'%20fill='%2341b883'/%3e%3cpath%20d='M161.096.001l-30.225%2052.351L100.647.001H52.346l78.526%20136.01L209.398.001z'%20fill='%2334495e'/%3e%3c/svg%3e" width="50" height="50" alt="" class="mask mask-circle">
-                    <div class="flex-1">
-                        <p class="font-bold">apa kek</p>
-                        <p class="text-sm">2500 AxAi</p>
+        <div class="bg-base-300">
+            <header class="navbar px-4">
+                <button class="flex-1">
+                    <svg viewBox="0 0 448 512" width="1.06em" height="1.2em">
+                        <path fill="currentColor" d="m257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3"></path>
+                    </svg>
+                </button>
+                <button class="flex-none">
+                    <svg viewBox="0 0 512 512" width="1.2em" height="1.2em">
+                        <path fill="currentColor" d="M328 256c0 39.8-32.2 72-72 72s-72-32.2-72-72s32.2-72 72-72s72 32.2 72 72m104-72c-39.8 0-72 32.2-72 72s32.2 72 72 72s72-32.2 72-72s-32.2-72-72-72m-352 0c-39.8 0-72 32.2-72 72s32.2 72 72 72s72-32.2 72-72s-32.2-72-72-72"></path>
+                    </svg>
+                </button>
+            </header>
+            <main class="min-h-screen overflow-hidden rounded-t-3xl bg-base-100 p-4 pb-36">
+                <header class="hero min-h-48">
+                    <div class="hero-content flex-col text-center">
+                        <h1>Earns</h1>
+                        <p>Follow simple steps to get more AxAi</p>
                     </div>
-                    <button class="btn rounded-full px-8 py-4 capitalize font-bold">claim</button>
-                </li>
-            </ul>
-        </section>
-        <div class="divider"></div>
-        <section>
-            <h2>Introduction to Crypto <span class="badge badge-outline py-3 mx-1 badge-primary">New</span></h2>
-            <ul>
-                <li class="flex items-center justify-between gap-4 p-4">
-                    <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20261.76%20226.69'%3e%3cpath%20d='M161.096.001l-30.225%2052.351L100.647.001H-.005l130.877%20226.688L261.749.001z'%20fill='%2341b883'/%3e%3cpath%20d='M161.096.001l-30.225%2052.351L100.647.001H52.346l78.526%20136.01L209.398.001z'%20fill='%2334495e'/%3e%3c/svg%3e" width="50" height="50" alt="" class="mask mask-circle">
-                    <div class="flex-1">
-                        <p class="font-bold">Connect to wallet</p>
-                        <p class="text-sm">2500 AxAi</p>
+                </header>
+                <section>
+                    <h2>Free roulette</h2>
+                    <div class="relative p-4 bg-base-200 rounded-lg before:content-[''] before:absolute before:inset-0 before:bottom-3/4 before:bg-gradient-to-b before:from-base-200 before:to-transparent before:content-[''] after:absolute after:inset-0 after:top-2/4 after:bottom-16 after:bg-gradient-to-t after:from-base-200 after:to-transparent">
+                        <ul class="flex flex-col gap-2 max-h-72 overflow-auto pt-8 pb-36">
+                            <li class="text-center bg-base-100 rounded-full py-4">100 AxAi</li>
+                            <li class="text-center bg-base-100 rounded-full py-4">100 AxAi</li>
+                            <li class="text-center bg-base-100 rounded-full py-4">100 AxAi</li>
+                            <li class="text-center bg-base-100 rounded-full py-4">100 AxAi</li>
+                            <li class="text-center bg-base-100 rounded-full py-4">100 AxAi</li>
+                            <li class="text-center bg-base-100 rounded-full py-4">100 AxAi</li>
+                            <li class="text-center bg-base-100 rounded-full py-4">100 AxAi</li>
+                        </ul>
+                        <button class="btn rounded-full px-8 py-4 capitalize btn-primary btn-block mt-4">Spin</button>
                     </div>
-                    <button class="btn rounded-full px-8 py-4 capitalize font-bold">Start</button>
-                </li>
-                <li class="flex items-center justify-between gap-4 p-4">
-                    <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20261.76%20226.69'%3e%3cpath%20d='M161.096.001l-30.225%2052.351L100.647.001H-.005l130.877%20226.688L261.749.001z'%20fill='%2341b883'/%3e%3cpath%20d='M161.096.001l-30.225%2052.351L100.647.001H52.346l78.526%20136.01L209.398.001z'%20fill='%2334495e'/%3e%3c/svg%3e" width="50" height="50" alt="" class="mask mask-circle">
-                    <div class="flex-1">
-                        <p class="font-bold">Withdrawal AxAi</p>
-                        <p class="text-sm">2500 AxAi</p>
-                    </div>
-                    <button class="btn rounded-full px-8 py-4 capitalize font-bold">Start</button>
-                </li>
-                <li class="flex items-center justify-between gap-4 p-4">
-                    <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20261.76%20226.69'%3e%3cpath%20d='M161.096.001l-30.225%2052.351L100.647.001H-.005l130.877%20226.688L261.749.001z'%20fill='%2341b883'/%3e%3cpath%20d='M161.096.001l-30.225%2052.351L100.647.001H52.346l78.526%20136.01L209.398.001z'%20fill='%2334495e'/%3e%3c/svg%3e" width="50" height="50" alt="" class="mask mask-circle">
-                    <div class="flex-1">
-                        <p class="font-bold">Mint Key NFT</p>
-                        <p class="text-sm">2500 AxAi</p>
-                    </div>
-                    <button class="btn rounded-full px-8 py-4 capitalize font-bold">Start</button>
-                </li>
-            </ul>
-        </section>
-    </main>
-</div>
+                </section>
+                <div class="divider"></div>
+                <section>
+                    <h2>Hourly tasks <span class="badge badge-outline py-3 mx-1 badge-primary">new</span></h2>
+                    <ul>
+                        <li class="flex items-center justify-between gap-4 p-4">
+                            <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20261.76%20226.69'%3e%3cpath%20d='M161.096.001l-30.225%2052.351L100.647.001H-.005l130.877%20226.688L261.749.001z'%20fill='%2341b883'/%3e%3cpath%20d='M161.096.001l-30.225%2052.351L100.647.001H52.346l78.526%20136.01L209.398.001z'%20fill='%2334495e'/%3e%3c/svg%3e" width="50" height="50" alt="" class="mask mask-circle"/>
+                            <div class="flex-1">
+                                <p class="font-bold">apa kek</p>
+                                <p class="text-sm">2500 AxAi</p>
+                            </div>
+                            <button class="btn rounded-full px-8 py-4 capitalize font-bold">claim</button>
+                        </li>
+                    </ul>
+                </section>
+                <div class="divider"></div>
+                <section>
+                    <h2>Introduction to Crypto <span class="badge badge-outline py-3 mx-1 badge-primary">New</span></h2>
+                    <ul>
+                        <li class="flex items-center justify-between gap-4 p-4">
+                            <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20261.76%20226.69'%3e%3cpath%20d='M161.096.001l-30.225%2052.351L100.647.001H-.005l130.877%20226.688L261.749.001z'%20fill='%2341b883'/%3e%3cpath%20d='M161.096.001l-30.225%2052.351L100.647.001H52.346l78.526%20136.01L209.398.001z'%20fill='%2334495e'/%3e%3c/svg%3e" width="50" height="50" alt="" class="mask mask-circle"/>
+                            <div class="flex-1">
+                                <p class="font-bold">Connect to wallet</p>
+                                <p class="text-sm">2500 AxAi</p>
+                            </div>
+                            <button class="btn rounded-full px-8 py-4 capitalize font-bold">Start</button>
+                        </li>
+                        <li class="flex items-center justify-between gap-4 p-4">
+                            <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20261.76%20226.69'%3e%3cpath%20d='M161.096.001l-30.225%2052.351L100.647.001H-.005l130.877%20226.688L261.749.001z'%20fill='%2341b883'/%3e%3cpath%20d='M161.096.001l-30.225%2052.351L100.647.001H52.346l78.526%20136.01L209.398.001z'%20fill='%2334495e'/%3e%3c/svg%3e" width="50" height="50" alt="" class="mask mask-circle"/>
+                            <div class="flex-1">
+                                <p class="font-bold">Withdrawal AxAi</p>
+                                <p class="text-sm">2500 AxAi</p>
+                            </div>
+                            <button class="btn rounded-full px-8 py-4 capitalize font-bold">Start</button>
+                        </li>
+                        <li class="flex items-center justify-between gap-4 p-4">
+                            <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20261.76%20226.69'%3e%3cpath%20d='M161.096.001l-30.225%2052.351L100.647.001H-.005l130.877%20226.688L261.749.001z'%20fill='%2341b883'/%3e%3cpath%20d='M161.096.001l-30.225%2052.351L100.647.001H52.346l78.526%20136.01L209.398.001z'%20fill='%2334495e'/%3e%3c/svg%3e" width="50" height="50" alt="" class="mask mask-circle"/>
+                            <div class="flex-1">
+                                <p class="font-bold">Mint Key NFT</p>
+                                <p class="text-sm">2500 AxAi</p>
+                            </div>
+                            <button class="btn rounded-full px-8 py-4 capitalize font-bold">Start</button>
+                        </li>
+                    </ul>
+                </section>
+            </main>
+        </div>
         <nav class="btn-nav-sm btm-nav text-sm">
             <a href="/" class="router-link-active text-primary border-t border-primary bg-gradient-to-b from-primary/10 to-transparent" aria-current="page">
                 <svg viewBox="0 0 576 512" width="1.36em" height="1.2em">
