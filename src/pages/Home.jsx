@@ -8,7 +8,7 @@ function Home() {
             <header class="hero min-h-48">
                 <div class="hero-content flex-col text-center">
                     <img src={Logo} width="150" alt="Logo" />
-                    <h1>56754 Axai</h1>
+                    <h1 className='text-4xl font-bold text-green-600'>56754 Axai</h1>
                     <button class="btn rounded-full px-8 py-4 capitalize btn-primary self-stretch">Withdraw</button>
                 </div>
             </header>

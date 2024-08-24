@@ -1692,7 +1692,7 @@ h2 {
 
 .text-primary {
     --tw-text-opacity: 1;
-    color: var(--fallback-p,oklch(var(--p)/var(--tw-text-opacity)))
+    color: var(--fallback-su,oklch(var(--p)/var(--tw-text-opacity)))
 }
 
 .shadow-md {
