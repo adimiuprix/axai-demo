@@ -1,4 +1,4 @@
-import './App.css'
+import '../App.css'
 
 function Leader() {
   return (
@@ -99,4 +99,4 @@ function Leader() {
   )
 }
 
-export default Earn
+export default Leader
